@@ -1,0 +1,22 @@
+{
+  "name": "italian-municipalities-provinces-downloader",
+  "version": "1.0.0",
+  "description": "Script to download updated csv of italian municipalities and italian provinces",
+  "main": "italian-cities-provinces-downloader.js",
+  "scripts": {
+    "start": "node italian-municipalities-provinces-downloader.js"
+  },
+  "keywords": [
+    "italian",
+    "municipalities",
+    "provinces",
+    "downloader"
+  ],
+  "author": "asp4d",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "csv-parse": "4.16.3",
+    "https": "1.0.0",
+    "objects-to-csv": "1.3.6"
+  }
+}
