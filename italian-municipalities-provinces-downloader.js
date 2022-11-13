@@ -3,14 +3,14 @@ const fs = require('fs');
 const https = require('https');
 const objectsToCsv = require('objects-to-csv');
 
-var italian_municipalities = [];
-var italian_provinces = [];
+let italian_municipalities = [];
+let italian_provinces = [];
 
-var istat_permalink="https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
-var csv_path="Elenco-comuni-italiani.csv";
+const istat_permalink = "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
+const csv_path = "Elenco-comuni-italiani.csv";
 
 //Download csv from Istat permalink
-//Scarica il csv dal permalink dell'Istat
+//Scarica il csv dal permalink dell' Istat
 
 https.get(istat_permalink, (res) => {
     
@@ -18,12 +18,13 @@ https.get(istat_permalink, (res) => {
     res.pipe(writeStream);
 
     writeStream.on("finish", () => {
+
         writeStream.close();
 
         //Read from csv only functional data: municipality name, province name and province code
         //Leggi dal csv solo i dati che interessano: nome del comune, nome delle province e sigle delle province
 
-        fs.createReadStream(csv_path, 'latin1') //decodifica latin1 (ISO 8859), il csv dell'Istat non usa UTF-8
+        fs.createReadStream(csv_path, 'latin1') //decodifica latin1 (ISO 8859), il csv dell' Istat non usa UTF-8
             .pipe(csvParse({delimiter: ';'}))
             .on('data', function(csvRow) {
                 italian_municipalities.push(
@@ -39,7 +40,7 @@ https.get(istat_permalink, (res) => {
 
                 console.log("Download completed");
 
-                fs.unlinkSync(csv_path); //Delete original istat csv //Elimina il csv scaricato dall'Istat
+                fs.unlinkSync(csv_path); //Delete original istat csv //Elimina il csv scaricato dall' Istat
 
                 italian_municipalities.splice(0, 1); //Delete header from italian_municipalities list //Elimina l'intestazione da italian_municipalities
                 
@@ -53,7 +54,7 @@ https.get(istat_permalink, (res) => {
                     province_name: italian_municipalities[0].province_name
                 })
 
-                for(i=1; i<italian_municipalities.length; i++) { //Start from 1 to skip the header //Parte da 1 per saltare l'header
+                for(let i=1; i<italian_municipalities.length; i++) { //Start from 1 to skip the header //Parte da 1 per saltare l'intestazione
                     
                     if(italian_municipalities[i].province_code!==italian_municipalities[i-1].province_code) {
 
@@ -87,6 +88,5 @@ https.get(istat_permalink, (res) => {
                     console.log("italian_municipalities.csv created");
                   })();
             })
-
     })
 });
