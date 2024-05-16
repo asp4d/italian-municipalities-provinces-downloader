@@ -19,7 +19,7 @@ Poi lanciate i seguenti comandi:
 
 ```bash
 git clone
-cd italian-municipalities-provincies-downloader
+cd italian-municipalities-provinces-downloader
 npm install
 ```
 
