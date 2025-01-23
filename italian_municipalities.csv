@@ -1,4 +1,4 @@
-﻿name,province_code
+name,province_code
 Abano Terme,PD
 Abbadia Cerreto,LO
 Abbadia Lariana,LC
@@ -95,7 +95,6 @@ Ala di Stura,TO
 Alagna,PV
 Alagna Valsesia,VC
 Alanno,PE
-Alano di Piave,BL
 Alassio,SV
 Alatri,FR
 Alba,CN
@@ -107,7 +106,6 @@ Albano di Lucania,PZ
 Albano Laziale,RM
 Albano Sant'Alessandro,BG
 Albano Vercellese,VC
-Albaredo Arnaboldi,PV
 Albaredo d'Adige,VR
 Albaredo per San Marco,SO
 Albareto,PR
@@ -519,7 +517,7 @@ Barbona,PD
 Barcellona Pozzo di Gotto,ME
 Barcis,PN
 Bard,AO
-Bardello,VA
+Bardello con Malgesso e Bregano,VA
 Bardi,PR
 Bardineto,SV
 Bardolino,VR
@@ -885,7 +883,6 @@ Branzi,BG
 Braone,BS
 Brebbia,VA
 Breda di Piave,TV
-Bregano,VA
 Breganze,VI
 Bregnano,CO
 Brembate,BG
@@ -1196,7 +1193,7 @@ Camporotondo Etneo,CT
 Camposampiero,PD
 Camposano,NA
 Camposanto,MO
-Campospinoso,PV
+Campospinoso Albaredo,PV
 Campotosto,AQ
 Camugnano,BO
 Canal San Bovo,TN
@@ -1338,7 +1335,6 @@ Carbone,PZ
 Carbonera,TV
 Carbonia,SU
 Carcare,SV
-Carceri,PD
 Carcoforo,VC
 Cardano al Campo,VA
 Cardè,CN
@@ -2975,7 +2971,6 @@ Gambellara,VI
 Gamberale,CH
 Gambettola,FC
 Gambolò,PV
-Gambugliano,VI
 Gandellino,BG
 Gandino,BG
 Gandosso,BG
@@ -3159,7 +3154,7 @@ Graglia,BI
 Gragnano,NA
 Gragnano Trebbiense,PC
 Grammichele,CT
-Grana,AT
+Grana Monferrato,AT
 Granarolo dell'Emilia,BO
 Grandate,CO
 Grandola ed Uniti,CO
@@ -3712,7 +3707,6 @@ Maleo,LO
 Malesco,VB
 Maletto,CT
 Malfa,ME
-Malgesso,VA
 Malgrate,LC
 Malito,CS
 Mallare,SV
@@ -4127,8 +4121,8 @@ Montabone,AT
 Montacuto,AL
 Montafia,AT
 Montagano,CB
-Montagna,BZ
 Montagna in Valtellina,SO
+Montagna sulla strada del vino,BZ
 Montagnana,PD
 Montagnareale,ME
 Montaguto,AV
@@ -4283,7 +4277,7 @@ Montelupo Albese,CN
 Montelupo Fiorentino,FI
 Montelupone,MC
 Montemaggiore Belsito,PA
-Montemagno,AT
+Montemagno Monferrato,AT
 Montemale di Cuneo,CN
 Montemarano,AV
 Montemarciano,AN
@@ -4379,7 +4373,7 @@ Monzambano,MN
 Monzuno,BO
 Morano Calabro,CS
 Morano sul Po,AL
-Moransengo,AT
+Moransengo-Tonengo,AT
 Moraro,GO
 Morazzone,VA
 Morbegno,SO
@@ -5309,7 +5303,7 @@ Ponzano Monferrato,AL
 Ponzano Romano,RM
 Ponzano Veneto,TV
 Ponzone,AL
-Popoli,PE
+Popoli Terme,PE
 Poppi,AR
 Porano,TR
 Porcari,LU
@@ -5489,7 +5483,6 @@ Quartucciu,CA
 Quassolo,TO
 Quattordio,AL
 Quattro Castella,RE
-Quero Vas,BL
 Quiliano,SV
 Quincinetto,TO
 Quindici,AV
@@ -5787,7 +5780,6 @@ Rombiolo,VV
 Romeno,TN
 Romentino,NO
 Rometta,ME
-Ronago,CO
 Roncà,VR
 Roncade,TV
 Roncadelle,BS
@@ -6398,6 +6390,7 @@ Sant'Orsola Terme,TN
 Sant'Urbano,PD
 Santa Brigida,BG
 Santa Caterina Albanese,CS
+Santa Caterina d'Este,PD
 Santa Caterina dello Ionio,CZ
 Santa Caterina Villarmosa,CL
 Santa Cesarea Terme,LE
@@ -6709,6 +6702,7 @@ Sestriere,TO
 Sestu,CA
 Settala,MI
 Settefrati,FR
+Setteville,BL
 Settime,AT
 Settimo Milanese,MI
 Settimo Rottaro,TO
@@ -7112,7 +7106,6 @@ Tombolo,PD
 Ton,TN
 Tonara,NU
 Tonco,AT
-Tonengo,AT
 Tonezza del Cimone,VI
 Tora e Piccilli,CE
 Torano Castello,CS
@@ -7340,7 +7333,7 @@ Ucria,ME
 Udine,UD
 Ugento,LE
 Uggiano la Chiesa,LE
-Uggiate-Trevano,CO
+Uggiate con Ronago,CO
 Ulà Tirso,OR
 Ulassai,NU
 Ultimo,BZ
@@ -7651,7 +7644,6 @@ Vigevano,PV
 Viggianello,PZ
 Viggiano,PZ
 Viggiù,VA
-Vighizzolo d'Este,PD
 Vigliano Biellese,BI
 Vigliano d'Asti,AT
 Vignale Monferrato,AL

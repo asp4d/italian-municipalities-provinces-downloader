@@ -13,7 +13,7 @@ These two files are generated using a permalink from [Italian National Institute
 
 ## Installation
 
-Nodejs has to be installed on your PC, if you have not yet installed Nodejs, follow [this guide](https://nodejs.dev/learn/how-to-install-nodejs).
+Nodejs has to be installed on your PC, if you have not yet installed Nodejs, follow [this guide](https://nodejs.org/en/download).
 
 Then run the following commands:
 

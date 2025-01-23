@@ -13,7 +13,7 @@ Questi due file sono generati usando un link permanente dell' [Istituto nazional
 
 ## Installazione
 
-Bisogna aver installato Nodejs, se non avete installato ancora Nodejs, seguite [questa guida](https://nodejs.dev/learn/how-to-install-nodejs)
+Bisogna aver installato Nodejs, se non avete installato ancora Nodejs, seguite [questa guida](https://nodejs.org/en/download)
 
 Poi lanciate i seguenti comandi:
 
